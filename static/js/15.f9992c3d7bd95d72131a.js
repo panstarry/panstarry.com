@@ -1163,6 +1163,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 // 引用vue-qrcode-reader插件
 
@@ -1384,7 +1387,7 @@ exports = module.exports = __webpack_require__(763)(false);
 
 
 // module
-exports.push([module.i, ".qrcode .code>div[data-v-81b175f0]:first-child{height:100vh}.qrcode .qrcode-stream-camera[data-v-81b175f0]{height:100%}.qrcode .code-button[data-v-81b175f0]{position:absolute;bottom:10px;width:100%;display:flex;justify-content:space-between;padding:0 20px}", ""]);
+exports.push([module.i, ".qrcode .code>div[data-v-81b175f0]:first-child{height:100vh}.qrcode .qrcode-stream-camera[data-v-81b175f0]{height:100%}.qrcode .code-button[data-v-81b175f0]{position:absolute;bottom:10px;width:100%;display:flex;justify-content:space-between;padding:0 20px}.video-show[data-v-81b175f0]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:200px;height:200px;z-index:2;background:linear-gradient(270deg,#fff,#fff) 0 0 no-repeat,linear-gradient(180deg,#fff,#fff) 0 0 no-repeat,linear-gradient(270deg,#fff,#fff) 100% 0 no-repeat,linear-gradient(180deg,#fff,#fff) 100% 0 no-repeat,linear-gradient(270deg,#fff,#fff) 0 100% no-repeat,linear-gradient(180deg,#fff,#fff) 0 100% no-repeat,linear-gradient(270deg,#fff,#fff) 100% 100% no-repeat,linear-gradient(270deg,#fff,#fff) 100% 100% no-repeat;background-size:2px 20px,20px 2px,2px 20px,20px 2px}.v-s-line[data-v-81b175f0]{position:absolute;top:0;left:0;width:100%;height:2px;background:pink;animation:myfirst-data-v-81b175f0 1s linear infinite}@keyframes myfirst-data-v-81b175f0{0%{top:0}to{top:200px}}@-webkit-keyframes myfirst{0%{top:0}to{top:200px}}", ""]);
 
 // exports
 
@@ -1716,7 +1719,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "decode": _vm.onDecode,
       "init": _vm.onInit
     }
-  })], 1), _vm._v(" "), _c('div', {
+  })], 1), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "code-button"
   }, [_c('button', {
     on: {
@@ -1731,7 +1734,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "click": _vm.turnCameraOff
     }
   }, [_vm._v("关闭相机")])])], 1)])
-},staticRenderFns: []}
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "video-show"
+  }, [_c('div', {
+    staticClass: "v-s-line"
+  })])
+}]}
 
 /***/ }),
 
