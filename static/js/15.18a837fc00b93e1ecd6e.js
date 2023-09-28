@@ -1164,7 +1164,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-// 引用vue-qrcode-reader插件
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1600,6 +1599,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "qrcode"
   }, [_c('div', {
     staticClass: "code"
+  }, [_c('qrcode-drop-zone', {
+    on: {
+      "decode": _vm.onDecode
+    }
   }, [_c('qrcode-stream', {
     attrs: {
       "torch": _vm.torchActive,
@@ -1609,7 +1612,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "decode": _vm.onDecode,
       "init": _vm.onInit
     }
-  }), _vm._v(" "), _c('div', {
+  })], 1), _vm._v(" "), _c('div', {
     staticClass: "code-button"
   }, [_c('button', {
     on: {
