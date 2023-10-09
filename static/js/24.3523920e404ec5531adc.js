@@ -92,7 +92,7 @@ var update = __webpack_require__(764)("e52b38a2", content, true, {});
 
 /***/ }),
 
-/***/ 2233:
+/***/ 2234:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -137,7 +137,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1322),
   /* template */
-  __webpack_require__(2233),
+  __webpack_require__(2234),
   /* styles */
   injectStyle,
   /* scopeId */

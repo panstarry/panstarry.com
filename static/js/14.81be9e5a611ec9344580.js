@@ -897,7 +897,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__member_venue_bookings_vue__ = __webpack_require__(2034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__member_venue_bookings_vue__ = __webpack_require__(2035);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__member_venue_bookings_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__member_venue_bookings_vue__);
 //
 //
@@ -3415,28 +3415,28 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAADGCAYAAACt
 
 /***/ }),
 
-/***/ 2004:
+/***/ 2005:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/venue-none-1.b8cac9a.png";
 
 /***/ }),
 
-/***/ 2005:
+/***/ 2006:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/venue-none-2.31b8ac1.png";
 
 /***/ }),
 
-/***/ 2006:
+/***/ 2007:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/venue-none-3.2710aff.png";
 
 /***/ }),
 
-/***/ 2034:
+/***/ 2035:
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
@@ -3446,7 +3446,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1492),
   /* template */
-  __webpack_require__(2197),
+  __webpack_require__(2198),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -3460,7 +3460,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 2049:
+/***/ 2050:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3479,7 +3479,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2063:
+/***/ 2064:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3510,17 +3510,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('img', {
     staticClass: "defalt-img",
     attrs: {
-      "src": __webpack_require__(2004)
+      "src": __webpack_require__(2005)
     }
   }), _vm._v(" "), _c('img', {
     staticClass: "pink-img",
     attrs: {
-      "src": __webpack_require__(2005)
+      "src": __webpack_require__(2006)
     }
   }), _vm._v(" "), _c('img', {
     staticClass: "balck-img",
     attrs: {
-      "src": __webpack_require__(2006)
+      "src": __webpack_require__(2007)
     }
   }), _vm._v(" "), _c('div', {
     staticClass: "no-open-bk-tip theme-font-color"
@@ -4095,7 +4095,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2197:
+/***/ 2198:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4246,7 +4246,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2239:
+/***/ 2240:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4692,7 +4692,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1493),
   /* template */
-  __webpack_require__(2049),
+  __webpack_require__(2050),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4716,7 +4716,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1494),
   /* template */
-  __webpack_require__(2063),
+  __webpack_require__(2064),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4740,7 +4740,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1495),
   /* template */
-  __webpack_require__(2239),
+  __webpack_require__(2240),
   /* styles */
   injectStyle,
   /* scopeId */

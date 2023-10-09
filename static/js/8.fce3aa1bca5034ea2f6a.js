@@ -2653,14 +2653,14 @@ var update = __webpack_require__(764)("49cf833e", content, true, {});
 
 /***/ }),
 
-/***/ 1993:
+/***/ 1994:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/img/reg-banner.d167ce1.png";
 
 /***/ }),
 
-/***/ 2035:
+/***/ 2036:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2675,7 +2675,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2088:
+/***/ 2089:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -2720,7 +2720,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2127:
+/***/ 2128:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3220,14 +3220,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "banner section-part"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(1993)
+      "src": __webpack_require__(1994)
     }
   })])
 }]}
 
 /***/ }),
 
-/***/ 2166:
+/***/ 2167:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3236,7 +3236,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2189:
+/***/ 2190:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3371,7 +3371,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2194:
+/***/ 2195:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3382,7 +3382,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2200:
+/***/ 2201:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3401,7 +3401,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2235:
+/***/ 2236:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -3770,7 +3770,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2237:
+/***/ 2238:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4324,7 +4324,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1309),
   /* template */
-  __webpack_require__(2194),
+  __webpack_require__(2195),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4348,7 +4348,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1357),
   /* template */
-  __webpack_require__(2035),
+  __webpack_require__(2036),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4372,7 +4372,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1407),
   /* template */
-  __webpack_require__(2200),
+  __webpack_require__(2201),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4396,7 +4396,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1452),
   /* template */
-  __webpack_require__(2088),
+  __webpack_require__(2089),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4420,7 +4420,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1486),
   /* template */
-  __webpack_require__(2127),
+  __webpack_require__(2128),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4444,7 +4444,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1488),
   /* template */
-  __webpack_require__(2235),
+  __webpack_require__(2236),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4468,7 +4468,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1489),
   /* template */
-  __webpack_require__(2237),
+  __webpack_require__(2238),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4492,7 +4492,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1490),
   /* template */
-  __webpack_require__(2189),
+  __webpack_require__(2190),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -4513,7 +4513,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1491),
   /* template */
-  __webpack_require__(2166),
+  __webpack_require__(2167),
   /* styles */
   null,
   /* scopeId */

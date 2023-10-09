@@ -1145,7 +1145,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__ = __webpack_require__(2263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__ = __webpack_require__(2264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__);
 //
 //
@@ -1232,7 +1232,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue__ = __webpack_require__(2012);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue__ = __webpack_require__(2013);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue__);
 //
 //
@@ -1382,12 +1382,13 @@ exports.push([module.i, "", ""]);
 /***/ 1662:
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(765);
 exports = module.exports = __webpack_require__(763)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".qrcode .code>div[data-v-81b175f0]:first-child{height:100vh}.qrcode .qrcode-stream-camera[data-v-81b175f0]{height:100%}.qrcode .code-button[data-v-81b175f0]{position:absolute;bottom:10px;width:100%;display:flex;justify-content:space-between;padding:0 20px}.video-show[data-v-81b175f0]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:200px;height:200px;z-index:2;background:linear-gradient(270deg,#fff,#fff) 0 0 no-repeat,linear-gradient(180deg,#fff,#fff) 0 0 no-repeat,linear-gradient(270deg,#fff,#fff) 100% 0 no-repeat,linear-gradient(180deg,#fff,#fff) 100% 0 no-repeat,linear-gradient(270deg,#fff,#fff) 0 100% no-repeat,linear-gradient(180deg,#fff,#fff) 0 100% no-repeat,linear-gradient(270deg,#fff,#fff) 100% 100% no-repeat,linear-gradient(270deg,#fff,#fff) 100% 100% no-repeat;background-size:2px 20px,20px 2px,2px 20px,20px 2px}.v-s-line[data-v-81b175f0]{position:absolute;top:0;left:0;width:100%;height:2px;background:pink;animation:myfirst-data-v-81b175f0 1s linear infinite}@keyframes myfirst-data-v-81b175f0{0%{top:0}to{top:200px}}@-webkit-keyframes myfirst{0%{top:0}to{top:200px}}", ""]);
+exports.push([module.i, ".qrcode .code>div[data-v-81b175f0]:first-child{height:100vh}.qrcode .qrcode-stream-camera[data-v-81b175f0]{height:100%}.qrcode .code-button[data-v-81b175f0]{position:absolute;bottom:10px;width:100%;text-align:center}.video-show[data-v-81b175f0]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%;height:400px;z-index:2}.video-show .v-s-line[data-v-81b175f0]{position:absolute;top:0;left:0;width:100%;height:20px;background:url(" + escape(__webpack_require__(1960)) + ") no-repeat 50%;background-size:80% 20px;animation:myfirst-data-v-81b175f0 2.5s linear infinite}@keyframes myfirst-data-v-81b175f0{0%{top:0}to{top:300px}}@-webkit-keyframes myfirst{0%{top:0}to{top:200px}}", ""]);
 
 // exports
 
@@ -1450,7 +1451,14 @@ var update = __webpack_require__(764)("1b1d9225", content, true, {});
 
 /***/ }),
 
-/***/ 2012:
+/***/ 1960:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/line.860b640.png";
+
+/***/ }),
+
+/***/ 2013:
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
@@ -1460,7 +1468,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1310),
   /* template */
-  __webpack_require__(2198),
+  __webpack_require__(2199),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -1474,7 +1482,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 2086:
+/***/ 2087:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1539,7 +1547,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2129:
+/***/ 2130:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1645,7 +1653,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2177:
+/***/ 2178:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1698,7 +1706,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2198:
+/***/ 2199:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1723,14 +1731,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "code-button"
   }, [_c('button', {
     on: {
-      "click": _vm.switchCamera
-    }
-  }, [_vm._v("相机反转")]), _vm._v(" "), _c('button', {
-    on: {
-      "click": _vm.ClickFlash
-    }
-  }, [_vm._v("打开手电筒")]), _vm._v(" "), _c('button', {
-    on: {
       "click": _vm.turnCameraOff
     }
   }, [_vm._v("关闭相机")])])], 1)])
@@ -1744,7 +1744,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ }),
 
-/***/ 2263:
+/***/ 2264:
 /***/ (function(module, exports) {
 
 module.exports =
@@ -13116,7 +13116,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1272),
   /* template */
-  __webpack_require__(2129),
+  __webpack_require__(2130),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -13140,7 +13140,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1273),
   /* template */
-  __webpack_require__(2177),
+  __webpack_require__(2178),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -13164,7 +13164,7 @@ var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(1323),
   /* template */
-  __webpack_require__(2086),
+  __webpack_require__(2087),
   /* styles */
   injectStyle,
   /* scopeId */
