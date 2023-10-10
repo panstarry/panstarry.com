@@ -24417,9 +24417,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('use', {
     attrs: {
-      "xlink:href": ("#icon-coupon-" + (_vm.g.data.themeIconSkin))
+      "xlink:href": ("#iconmeituan-" + (_vm.g.data.themeIconSkin))
     }
-  })]), _vm._v(" "), _c('div', [_vm._v("验券")])])])])]), _vm._v(" "), (_vm.isInWx) ? _c('section', [_c('div', {
+  })]), _vm._v(" "), _c('div', [_vm._v("美团核销")])])])])]), _vm._v(" "), (_vm.isInWx) ? _c('section', [_c('div', {
     staticClass: "hd"
   }, [_c('div', {
     staticClass: "tit"

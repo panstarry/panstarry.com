@@ -1336,6 +1336,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1349,6 +1359,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       showPopup: false,
       value: null,
       info: {
+        sex: 1,
         username: null,
         phoneNo: null,
         voucherNo: null
@@ -1427,7 +1438,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
       }
     },
-    verifyCoupon() {},
+    verifyCoupon() {
+      console.log(this.info);
+    },
     couponQuery() {}
   }
 });
@@ -1442,7 +1455,7 @@ exports = module.exports = __webpack_require__(764)(false);
 
 
 // module
-exports.push([module.i, ".qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}", ""]);
+exports.push([module.i, ".qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.tblform .infor-name[data-v-2f96e3c7]{width:70px}.tblform .infor-detail[data-v-2f96e3c7]{flex:1;margin-left:10px}.tblform .infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}.tblform .infor-detail input[data-v-2f96e3c7]{width:70%}.tblform .infor-detail .icon-chose-radio[data-v-2f96e3c7]{padding:0}.tblform .infor-detail .icon-chose-radio li[data-v-2f96e3c7]{width:40px;font-size:12px;display:flex;align-items:center}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]{vertical-align:-2px;margin-right:2px;position:relative}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]:before{margin:0 0 2px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}", ""]);
 
 // exports
 
@@ -1590,7 +1603,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "qrcode"
   }, [_c('page-head', {
     attrs: {
-      "title": "美团验券"
+      "title": "美团核销"
     }
   }), _vm._v(" "), _c('div', {
     staticClass: "course-records -style-"
@@ -1618,9 +1631,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       expression: "info.username"
     }],
     staticClass: "input-s",
-    staticStyle: {
-      "width": "calc(100% - 30px)"
-    },
     attrs: {
       "type": "text",
       "placeholder": "请输入姓名"
@@ -1648,9 +1658,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       expression: "info.phoneNo"
     }],
     staticClass: "input-s",
-    staticStyle: {
-      "width": "calc(100% - 30px)"
-    },
     attrs: {
       "type": "text",
       "placeholder": "请输入手机号"
@@ -1668,6 +1675,36 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "row align-center theme-border-bottom"
   }, [_c('div', {
     staticClass: "infor-name"
+  }, [_vm._v("性别：")]), _vm._v(" "), _c('div', {
+    staticClass: "infor-detail"
+  }, [_c('ul', {
+    staticClass: "ul-li-fl icon-chose-radio"
+  }, [_c('li', {
+    on: {
+      "click": function($event) {
+        _vm.info.sex = 1
+      }
+    }
+  }, [_c('i', {
+    staticClass: "iconfont icon-radio",
+    class: {
+      'icon-radio-on': _vm.info.sex === 1
+    }
+  }), _vm._v("男")]), _vm._v(" "), _c('li', {
+    on: {
+      "click": function($event) {
+        _vm.info.sex = 0
+      }
+    }
+  }, [_c('i', {
+    staticClass: "iconfont icon-radio",
+    class: {
+      'icon-radio-on': _vm.info.sex === 0
+    }
+  }), _vm._v("女")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "row align-center theme-border-bottom"
+  }, [_c('div', {
+    staticClass: "infor-name"
   }, [_vm._v("券号：")]), _vm._v(" "), _c('div', {
     staticClass: "infor-detail row align-center"
   }, [_c('input', {
@@ -1678,9 +1715,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       expression: "info.voucherNo"
     }],
     staticClass: "input-s",
-    staticStyle: {
-      "width": "calc(100% - 30px)"
-    },
     attrs: {
       "type": "text",
       "placeholder": "请输入券号"
