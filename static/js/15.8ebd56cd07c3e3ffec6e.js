@@ -1241,7 +1241,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     // 扫码结果回调
     onDecode(result) {
       this.audio.play();
-      this.$emit("onDecode", result);
+      setTimeout(() => {
+        this.$emit("onDecode", result);
+      }, 300);
     },
     // 相机反转
     switchCamera() {
