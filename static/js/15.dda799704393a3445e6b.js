@@ -1207,7 +1207,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       g: $,
       isLoading: false,
       isFail: false,
-      loginsTimers: null
+      loginsTimers: null,
+      audio: null
     };
   },
   watch: {
@@ -1228,7 +1229,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     }
   },
   created() {},
-  mounted() {},
+  mounted() {
+    this.audio = new Audio("../../../static/tone.mp3");
+  },
   components: {
     QrcodeStream: __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__["QrcodeStream"],
     QrcodeDropZone: __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__["QrcodeDropZone"],
@@ -1237,6 +1240,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   methods: {
     // 扫码结果回调
     onDecode(result) {
+      this.audio.play();
       this.$emit("onDecode", result);
     },
     // 相机反转
@@ -1269,7 +1273,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.isFail = false;
             return;
           }
-          this.onDecode(res.content);
+          this.$emit("onDecode", res.content);
         }).catch(() => {
           this.isFail = false;
         });
@@ -1289,7 +1293,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue__ = __webpack_require__(2014);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__pages_mach_qrcode_vue__);
-//
 //
 //
 //
