@@ -1208,7 +1208,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       isLoading: false,
       isFail: false,
       loginsTimers: null,
-      audio: null
+      audio: null,
+      overTimer: null
     };
   },
   watch: {
@@ -1241,9 +1242,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     // 扫码结果回调
     onDecode(result) {
       this.audio.play();
-      setTimeout(() => {
+      this.isLoading = true;
+      this.overTimer = setTimeout(() => {
+        console.log(123123);
+        this.isLoading = false;
         this.$emit("onDecode", result);
-      }, 300);
+      }, 1000);
     },
     // 相机反转
     switchCamera() {
@@ -1275,7 +1279,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.isFail = false;
             return;
           }
-          this.$emit("onDecode", res.content);
+          this.onDecode(res.content);
         }).catch(() => {
           this.isFail = false;
         });
@@ -1455,7 +1459,7 @@ exports = module.exports = __webpack_require__(764)(false);
 
 
 // module
-exports.push([module.i, ".qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.tblform .infor-name[data-v-2f96e3c7]{width:70px}.tblform .infor-detail[data-v-2f96e3c7]{flex:1;margin-left:10px}.tblform .infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}.tblform .infor-detail input[data-v-2f96e3c7]{width:70%}.tblform .infor-detail .icon-chose-radio[data-v-2f96e3c7]{padding:0}.tblform .infor-detail .icon-chose-radio li[data-v-2f96e3c7]{width:40px;font-size:12px;display:flex;align-items:center}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]{vertical-align:-2px;margin-right:2px;position:relative}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]:before{margin:0 0 2px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}", ""]);
+exports.push([module.i, ".qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.tblform .infor-name[data-v-2f96e3c7]{width:70px}.tblform .infor-detail[data-v-2f96e3c7]{flex:1;margin-left:10px}.tblform .infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}.tblform .infor-detail input[data-v-2f96e3c7]{width:70%}.tblform .infor-detail .icon-chose-radio[data-v-2f96e3c7]{padding:0}.tblform .infor-detail .icon-chose-radio li[data-v-2f96e3c7]{width:50px;font-size:12px;display:flex;align-items:center}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]{vertical-align:-2px;margin-right:2px;position:relative}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]:before{margin:0 0 2px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}", ""]);
 
 // exports
 
@@ -1717,7 +1721,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "input-s",
     attrs: {
       "type": "text",
-      "placeholder": "请输入券号"
+      "placeholder": "请输入券号或扫码"
     },
     domProps: {
       "value": (_vm.info.voucherNo)
