@@ -1352,6 +1352,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -1369,7 +1391,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         username: null,
         phoneNo: null,
         voucherNo: null
-      }
+      },
+      isCardShow: false,
+      cardObj: null
     };
   },
   mounted() {},
@@ -1445,9 +1469,44 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       }
     },
     verifyCoupon() {
-      console.log(this.info);
+      $.Dlg.confirm("是否确定此操作？", () => {
+        this.info = {
+          sex: 1,
+          username: null,
+          phoneNo: null,
+          voucherNo: null
+        };
+        this.isCardShow = false;
+        $.Msg.success("操作成功！");
+      });
     },
-    couponQuery() {}
+    couponQuery() {
+      const { phoneNo, username, voucherNo } = this.info;
+      if (!username) {
+        return $.Msg.info("请输入【姓名】");
+      }
+      if (!phoneNo) {
+        return $.Msg.info("请输入【手机号】");
+      }
+      if (!voucherNo) {
+        return $.Msg.info("请输入【券号】");
+      }
+      console.log(this.info);
+      const args = {
+        voucherNo: voucherNo
+      };
+      // $.Req.service($.SvName.QUERY, args, (ret) => {
+      let ret = {};
+      ret.card = {
+        cardName: "测试卡1",
+        times: 10,
+        beginTime: "2022-8-14",
+        endTime: "2022-8-14"
+      };
+      this.cardObj = ret.card;
+      this.isCardShow = true;
+      // });
+    }
   }
 });
 
@@ -1461,7 +1520,7 @@ exports = module.exports = __webpack_require__(764)(false);
 
 
 // module
-exports.push([module.i, ".qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.tblform .infor-name[data-v-2f96e3c7]{width:70px}.tblform .infor-detail[data-v-2f96e3c7]{flex:1;margin-left:10px}.tblform .infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}.tblform .infor-detail input[data-v-2f96e3c7]{width:70%}.tblform .infor-detail .icon-chose-radio[data-v-2f96e3c7]{padding:0}.tblform .infor-detail .icon-chose-radio li[data-v-2f96e3c7]{width:50px;font-size:12px;display:flex;align-items:center}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]{vertical-align:-2px;margin-right:2px;position:relative}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]:before{margin:0 0 2px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}", ""]);
+exports.push([module.i, ".required[data-v-2f96e3c7]:before{margin-right:3px;display:inline-block;content:\"*\";color:#ff1e24;vertical-align:-2px}.qrcode-popup[data-v-2f96e3c7]{width:100%;height:100%}.popup-card-info[data-v-2f96e3c7]{width:300px;padding:20px 20px 0}.popup-card-info .row[data-v-2f96e3c7]{font-size:16px;justify-content:flex-start;padding:8px 0;border-bottom:1px solid #eee}.popup-card-info .card-title[data-v-2f96e3c7]{width:70px}.popup-card-info .card-btn[data-v-2f96e3c7]{justify-content:space-between;padding:0;flex-wrap:nowrap}.popup-card-info .btn-combine[data-v-2f96e3c7]{margin:16px 0}.popup-card-info .btn-combine .btn-bg[data-v-2f96e3c7]{flex:1;margin:1px}.tblform .infor-name[data-v-2f96e3c7]{width:70px}.tblform .infor-detail[data-v-2f96e3c7]{flex:1;margin-left:10px}.tblform .infor-detail .iconfont[data-v-2f96e3c7]{font-size:24px}.tblform .infor-detail input[data-v-2f96e3c7]{width:70%}.tblform .infor-detail .icon-chose-radio[data-v-2f96e3c7]{padding:0}.tblform .infor-detail .icon-chose-radio li[data-v-2f96e3c7]{width:50px;font-size:12px;display:flex;align-items:center}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]{vertical-align:-2px;margin-right:2px;position:relative}.tblform .infor-detail .icon-chose-radio .icon-radio[data-v-2f96e3c7]:before{margin:0 0 2px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}", ""]);
 
 // exports
 
@@ -1626,7 +1685,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "row align-center theme-border-bottom"
   }, [_c('div', {
-    staticClass: "infor-name"
+    staticClass: "infor-name required"
   }, [_vm._v("姓名：")]), _vm._v(" "), _c('div', {
     staticClass: "infor-detail row align-center"
   }, [_c('input', {
@@ -1653,7 +1712,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })])]), _vm._v(" "), _c('div', {
     staticClass: "row align-center theme-border-bottom"
   }, [_c('div', {
-    staticClass: "infor-name"
+    staticClass: "infor-name required"
   }, [_vm._v("手机号：")]), _vm._v(" "), _c('div', {
     staticClass: "infor-detail row align-center"
   }, [_c('input', {
@@ -1680,7 +1739,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })])]), _vm._v(" "), _c('div', {
     staticClass: "row align-center theme-border-bottom"
   }, [_c('div', {
-    staticClass: "infor-name"
+    staticClass: "infor-name required"
   }, [_vm._v("性别：")]), _vm._v(" "), _c('div', {
     staticClass: "infor-detail"
   }, [_c('ul', {
@@ -1710,7 +1769,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }), _vm._v("女")])])])]), _vm._v(" "), _c('div', {
     staticClass: "row align-center theme-border-bottom"
   }, [_c('div', {
-    staticClass: "infor-name"
+    staticClass: "infor-name required"
   }, [_vm._v("券号：")]), _vm._v(" "), _c('div', {
     staticClass: "infor-detail row align-center"
   }, [_c('input', {
@@ -1747,19 +1806,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "btn-combine row start theme-btn-bg"
   }, [_c('div', {
     staticClass: "btn btn-bor",
-    on: {
-      "click": function($event) {
-        return _vm.verifyCoupon()
-      }
-    }
-  }, [_vm._v("核销")]), _vm._v(" "), _c('div', {
-    staticClass: "btn btn-bg theme-font-color",
+    staticStyle: {
+      "width": "100%"
+    },
     on: {
       "click": function($event) {
         return _vm.couponQuery()
       }
     }
-  }, [_vm._v("查券")])])])])])]), _vm._v(" "), _c('van-popup', {
+  }, [_vm._v("核销")])])])])])]), _vm._v(" "), _c('van-popup', {
     staticClass: "qrcode-popup",
     attrs: {
       "duration": "0"
@@ -1783,7 +1838,54 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "onDecode": _vm.onDecode,
       "onInit": _vm.onInit
     }
-  }) : _vm._e()], 1)], 1)
+  }) : _vm._e()], 1), _vm._v(" "), _c('van-popup', {
+    attrs: {
+      "round": ""
+    },
+    model: {
+      value: (_vm.isCardShow),
+      callback: function($$v) {
+        _vm.isCardShow = $$v
+      },
+      expression: "isCardShow"
+    }
+  }, [(_vm.isCardShow) ? _c('div', {
+    staticClass: "popup-card-info"
+  }, [_c('ul', [_c('li', {
+    staticClass: "card-li row"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("会员卡：")]), _vm._v(" "), _c('div', {
+    staticClass: "card-name"
+  }, [_vm._v(_vm._s(_vm.cardObj.cardName))])]), _vm._v(" "), _c('li', {
+    staticClass: "card-li row"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("次数：")]), _vm._v(" "), _c('div', {
+    staticClass: "card-name"
+  }, [_vm._v(_vm._s(_vm.cardObj.times))])]), _vm._v(" "), _c('li', {
+    staticClass: "card-li row"
+  }, [_c('div', {
+    staticClass: "card-title"
+  }, [_vm._v("使用时间：")]), _vm._v(" "), _c('div', {
+    staticClass: "card-name"
+  }, [_vm._v(_vm._s(_vm.cardObj.beginTime) + " ~ " + _vm._s(_vm.cardObj.endTime))])]), _vm._v(" "), _c('li', {
+    staticClass: "card-li card-btn row btn-combine start theme-btn-bg"
+  }, [_c('div', {
+    staticClass: "btn btn-bor",
+    on: {
+      "click": function($event) {
+        return _vm.verifyCoupon()
+      }
+    }
+  }, [_vm._v("确定")]), _vm._v(" "), _c('div', {
+    staticClass: "btn btn-bg theme-font-color",
+    on: {
+      "click": function($event) {
+        _vm.isCardShow = false
+      }
+    }
+  }, [_vm._v("关闭")])])])]) : _vm._e()])], 1)
 },staticRenderFns: []}
 
 /***/ }),
