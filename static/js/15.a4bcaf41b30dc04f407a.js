@@ -1232,6 +1232,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   created() {},
   mounted() {
     this.audio = new Audio("../../../static/tone.mp3");
+    console.log(86, 1);
   },
   components: {
     QrcodeStream: __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__["QrcodeStream"],
@@ -1242,11 +1243,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     // 扫码结果回调
     onDecode(result) {
       this.audio.play();
-      this.isLoading = true;
-      this.overTimer = setTimeout(() => {
-        console.log(123123);
-        this.isLoading = false;
-        this.$emit("onDecode", result);
+      setTimeout(() => {
+        this.isLoading = true;
+        setTimeout(() => {
+          this.isLoading = false;
+          this.$emit("onDecode", result);
+        }, 1000);
       }, 1000);
     },
     // 相机反转
@@ -1279,7 +1281,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.isFail = false;
             return;
           }
-          this.onDecode(res.content);
+          this.$emit("onDecode", res.content);
         }).catch(() => {
           this.isFail = false;
         });
