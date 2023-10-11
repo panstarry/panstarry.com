@@ -1232,7 +1232,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   created() {},
   mounted() {
     this.audio = new Audio("../../../static/tone.mp3");
-    console.log(86, 1);
+    console.log(86, 2);
   },
   components: {
     QrcodeStream: __WEBPACK_IMPORTED_MODULE_0_vue_qrcode_reader__["QrcodeStream"],
@@ -1249,7 +1249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           this.isLoading = false;
           this.$emit("onDecode", result);
         }, 1000);
-      }, 1000);
+      }, 500);
     },
     // 相机反转
     switchCamera() {
