@@ -39,7 +39,7 @@ const Conf = {
   API_HOST: "https://api.jzongguan.com",
   IMG_BASE_URL: "//qdimg.oss-cn-shanghai.aliyuncs.com",
   IMG_UPLOAD_URL: `${"https://api.jzongguan.com"}/imgUpload`,
-  IMG_LIB_URL: `${Object({"NODE_ENV":"production","API_ROOT":"https://api.jzongguan.com"}).IMG_LIB_URL}/imglib`,
+  IMG_LIB_URL: `${"http://www.jzongguan.com"}/imglib`,
   VOICE_BASE_URL: `${"https://api.jzongguan.com"}/voices/`,
   QRCODE_URL: `${"https://api.jzongguan.com"}/_tool_/qr-img.php?val=`,
   WX_APP_ID_PUB: "wxd643724d2f21d666", // pub
@@ -1195,12 +1195,20 @@ function _init_(to, shopId, callback) {
   $.Req.service($.SvName.WX_API_CONF_GET, args, ret => {
     if (ret.wxApiConf && ret.wxApiConf.signature) {
       wx.config({
-        debug: true,
+        debug: false,
         appId: ret.wxApiConf.appId,
         timestamp: ret.wxApiConf.timestamp,
         nonceStr: ret.wxApiConf.nonceStr,
         signature: ret.wxApiConf.signature,
         jsApiList: ["onMenuShareTimeline", "onMenuShareAppMessage", "scanQRCode"]
+      });
+      wx.checkJsApi({
+        jsApiList: ["onMenuShareTimeline", "onMenuShareAppMessage", "scanQRCode"], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+        success: function (res) {
+          console.log(res);
+          // 以键值对的形式返回，可用的api值true，不可用为false
+          // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+        }
       });
     }
     if (to.path !== "/shop-home") {

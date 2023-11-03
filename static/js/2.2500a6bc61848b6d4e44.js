@@ -1,15 +1,15 @@
-webpackJsonp([4],{
+webpackJsonp([2],{
 
-/***/ 569:
+/***/ 571:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_share_item_vue__ = __webpack_require__(697);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_groupbuy_product_vue__ = __webpack_require__(701);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_46be5ff6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_share_item_vue__ = __webpack_require__(851);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1fe74ed6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_groupbuy_product_vue__ = __webpack_require__(859);
 function injectStyle (ssrContext) {
-  __webpack_require__(849)
+  __webpack_require__(857)
 }
 var normalizeComponent = __webpack_require__(44)
 /* script */
@@ -22,12 +22,51 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-46be5ff6"
+var __vue_scopeId__ = "data-v-1fe74ed6"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_share_item_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_46be5ff6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_share_item_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_groupbuy_product_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1fe74ed6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_groupbuy_product_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 572:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_groupbuy_product_sale_vue__ = __webpack_require__(702);
+/* empty harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_21d49110_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_groupbuy_product_sale_vue__ = __webpack_require__(862);
+function injectStyle (ssrContext) {
+  __webpack_require__(860)
+}
+var normalizeComponent = __webpack_require__(44)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-21d49110"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_groupbuy_product_sale_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_21d49110_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_groupbuy_product_sale_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -439,44 +478,6 @@ function BindEventMixin(handler) {
     beforeDestroy: unbind
   };
 }
-
-/***/ }),
-
-/***/ 599:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_cust_create_vue__ = __webpack_require__(656);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ac9c44e2_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_cust_create_vue__ = __webpack_require__(662);
-function injectStyle (ssrContext) {
-  __webpack_require__(660)
-}
-var normalizeComponent = __webpack_require__(44)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-ac9c44e2"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_cust_create_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ac9c44e2_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_cust_create_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
 
 /***/ }),
 
@@ -3938,10 +3939,500 @@ exports.push([module.i, ".van-image-preview{position:fixed;top:0;left:0;width:10
 
 /***/ }),
 
-/***/ 656:
+/***/ 701:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview__ = __webpack_require__(601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  components: { ImagePreview: __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default.a },
+
+  data() {
+    return {
+      g: window.$,
+      shopId: $.data.shop.shopId,
+      gpId: this.$route.params.gpId,
+      gtId: this.$route.query.gtId,
+      product: {},
+      groupbuyTeam: null,
+      shop: {},
+      shopImgs: [],
+      createCustDlg: false,
+      now: new Date(),
+      leftHour: null,
+      leftMin: null,
+      leftSec: null,
+      enableJoinTeam: true,
+      groupbuyOrderList: null,
+      ownerStaffId: 0,
+      productMorePicList: []
+    };
+  },
+  created() {
+    if (this.$route.query.ownerStaffId) {
+      this.ownerStaffId = parseInt(this.$route.query.ownerStaffId);
+    }
+    if (this.gpId) {
+      this.queryGroupbuyProduct();
+    }
+    if (parseInt(this.gtId)) {
+      this.queryGroupbuyTeam();
+      this.queryGroupbuyOrders();
+    }
+  },
+
+  methods: {
+    queryGroupbuyProduct() {
+      let args = { gpId: this.gpId };
+      $.Req.service($.SvName.GROUPBUY_PRODUCT_QUERY, args, ret => {
+        this.product = ret.groupbuyProduct;
+        if (this.product) {
+          this.queryShop();
+
+          if (this.product.productMorePics) {
+            let imgs = this.product.productMorePics.split(",");
+            for (let img of imgs) {
+              this.productMorePicList.push(img);
+            }
+          }
+        }
+      }, true);
+    },
+
+    queryGroupbuyOrders() {
+      if (!this.gtId) return;
+
+      let args = { gtId: this.gtId };
+      $.Req.service($.SvName.GROUPBUY_ORDER_QUERY, args, ret => {
+        this.groupbuyOrderList = ret.groupbuyOrderList;
+      }, true);
+    },
+
+    queryGroupbuyTeam() {
+      let args = { gtId: this.gtId };
+      $.Req.service($.SvName.GROUPBUY_TEAM_QUERY, args, ret => {
+        if (!ret.groupbuyTeam) {
+          this.enableJoinTeam = false;
+          $.Msg.error("不存在此拼团 ~");
+          return;
+        }
+        this.groupbuyTeam = ret.groupbuyTeam;
+        if (this.groupbuyTeam.status !== 0) {
+          this.enableJoinTeam = false;
+        } else {
+          this.now = ret.now;
+          let diffTimes = (Date.new(ret.groupbuyTeam.endTime).getTime() - Date.new(this.now).getTime()) / 1000;
+          if (diffTimes <= 0) {
+            this.enableJoinTeam = false;
+            $.Msg.info($.Lang.GROUPBUY_OUT_DATETIME);
+            return;
+          }
+          this.calcLeftTimes(diffTimes);
+
+          let timer = setInterval(() => {
+            if (parseInt(this.leftHour) + parseInt(this.leftMin) + parseInt(this.leftMin) === 0) {
+              clearInterval(timer);
+              this.enableJoinTeam = false;
+              $.Msg.info($.Lang.GROUPBUY_OUT_DATETIME);
+            } else {
+              this.calcLeftTimes();
+            }
+          }, 1000);
+        }
+      });
+    },
+
+    calcLeftTimes(nowTime = null) {
+      if (!nowTime) {
+        nowTime = parseInt(this.leftHour) * 3600 + parseInt(this.leftMin) * 60 + parseInt(this.leftSec) - 1;
+      }
+      this.leftHour = parseInt(nowTime / 3600);
+      this.leftMin = parseInt((nowTime - this.leftHour * 3600) / 60);
+      this.leftSec = nowTime % 60;
+
+      if (this.leftSec < 10) {
+        this.leftSec = "0" + this.leftSec;
+      }
+      if (this.leftMin < 10) {
+        this.leftMin = "0" + this.leftMin;
+      }
+    },
+
+    queryShop() {
+      let args = { shopId: this.shopId };
+      $.Req.service($.SvName.SHOP_QUERY, args, ret => {
+        this.shop = ret.shop;
+        if (this.shop.logoPathname) {
+          this.shopImgs.push(this.shop.logoPathname);
+        }
+        if (this.shop.shopPics) {
+          let imgs = this.shop.shopPics.split(",");
+          for (let img of imgs) {
+            this.shopImgs.push(img);
+          }
+        }
+        let addr = "";
+        if (this.shop.addrProvinceName) addr += this.shop.addrProvinceName;
+        if (this.shop.addrCityName) addr += this.shop.addrCityName;
+        if (this.shop.addrDistrictName) addr += this.shop.addrDistrictName;
+        if (this.shop.addrDetail) addr += this.shop.addrDetail;
+        this.shop.addr = addr;
+
+        this.setShareConf();
+      });
+    },
+
+    setShareConf() {
+      let imgUrl = $.Util.getImgUrl(this.product.sharePic ? this.product.sharePic : this.product.productPic);
+      imgUrl = "http://tool.jzongguan.com/url-redirect.php?url=" + encodeURIComponent(imgUrl);
+      let shareTitle = "{0}-{1}".format(this.product.shareTitle ? this.product.shareTitle : this.product.productTitle, this.shop.shopName);
+      let shareDesc = this.product.shareDesc ? this.product.shareDesc : this.product.productDesc;
+      let path = null;
+      if (this.gtId) {
+        path = "groupbuy-product/{0}?gtId={1}".format(this.gpId, this.gtId);
+        if (this.ownerStaffId) {
+          path += "&ownerStaffId=" + this.ownerStaffId;
+        }
+      } else {
+        path = "groupbuy-product/{0}".format(this.gpId);
+        if (this.ownerStaffId) {
+          path += "?ownerStaffId=" + this.ownerStaffId;
+        }
+      }
+
+      let shareLink = $.Util.getPageUrl(path);
+      wx.ready(() => {
+        wx.onMenuShareTimeline({
+          title: shareTitle,
+          link: shareLink,
+          imgUrl: imgUrl,
+          success: () => {},
+          cancel: () => {
+            //toddo
+          }
+        });
+
+        wx.onMenuShareAppMessage({
+          title: shareTitle,
+          desc: shareDesc,
+          link: shareLink,
+          imgUrl: imgUrl,
+          success: () => {},
+          cancel: () => {
+            // 用户取消分享后执行的回调函数
+          }
+        });
+      });
+    },
+
+    joinGroupbuyTeam() {
+      if ($.data.user.guestWxId) {
+        let url = "/groupbuy-product-sale/" + this.gpId;
+        if (this.gtId) url += "?gtId=" + this.gtId;
+        this.$router.push(url);
+      } else {
+        let path = null;
+        if (this.gtId) {
+          path = "groupbuy-product-sale/{0}?gtId={1}".format(this.gpId, this.gtId);
+        } else {
+          path = "groupbuy-product-sale/{0}".format(this.gpId);
+        }
+        if (this.ownerStaffId) {
+          path += "?ownerStaffId=" + this.ownerStaffId;
+        }
+        location.replace($.Util.getPageUrl(path));
+      }
+    },
+
+    imagePreview(img) {
+      __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default()([$.Util.getImgUrl(img)]);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ 702:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3993,182 +4484,170 @@ exports.push([module.i, ".van-image-preview{position:fixed;top:0;left:0;width:10
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   components: {},
-  props: {
-    ownerStaffId: {
-      type: Number,
-      required: false
-    },
-    ignoreCheckMember: {
-      type: Boolean,
-      default: false,
-      required: false
-    },
-    afterSubmit: {
-      type: Function,
-      default() {
-        return {};
-      }
-    }
-  },
   data() {
     return {
       g: $,
-      authCode: null,
+      shopId: $.data.shop.shopId,
+      gpId: this.$route.params.gpId,
+      gtId: this.$route.query.gtId,
+      guestWxId: null,
+      product: {},
       cust: {
-        phoneNo: null,
         name: null,
-        sex: true,
-        smsAuthCode: null,
-        wxId: $.data.user.guestWxId
+        phoneNo: null,
+        sex: true
       },
-      authcodeLabel: '获取验证码',
-      authcodeBtnDisabled: false,
-      lastSendSmsTime: null
+      ownerStaffId: null
     };
   },
 
-  created() {},
+  created() {
+    if (this.$route.query.ownerStaffId) {
+      this.ownerStaffId = parseInt(this.$route.query.ownerStaffId);
+    }
+    if ($.data.user.guestWxId && $.data.user.guestWxId !== 'undefined') {
+      this.guestWxId = $.data.user.guestWxId;
+    }
+    let ckName = $.Util.cookie.get($.Conf.CookieKeys.CUST_NAME);
+    if (ckName) this.cust.name = decodeURIComponent(ckName);
+    this.cust.phoneNo = $.Util.cookie.get($.Conf.CookieKeys.CUST_PHONE);
+    this.queryGroupbuyProduct();
+  },
 
   methods: {
+    queryGroupbuyProduct() {
+      let args = { gpId: parseInt(this.gpId) };
+      $.Req.service($.SvName.GROUPBUY_PRODUCT_QUERY, args, ret => {
+        this.product = ret.groupbuyProduct;
+      }, true);
+    },
+
     selectSex() {
       this.cust.sex = !this.cust.sex;
     },
 
-    createCust() {
-      // check
-      if (!this.checkPhone()) {
-        return;
-      }
-      if (!this.cust.name) {
-        $.Msg.error('请输入您的姓名');
-        return;
-      }
-      if (!this.cust.smsAuthCode) {
-        $.Msg.error('请输入短信验证码');
-        return;
-      }
-      let smsCodeLen = (this.cust.smsAuthCode + '').length;
-      if (smsCodeLen < 4 || smsCodeLen > 9) {
-        $.Msg.error('短信验证码格式错误');
-        return;
-      }
-
-      if (this.ownerStaffId) {
-        this.cust.ownerStaffId = this.ownerStaffId;
-      }
-      if ($.data.user.wxHeadImgUrl) {
-        this.cust.wxHeadImgUrl = $.data.user.wxHeadImgUrl;
-      }
-      if (this.ignoreCheckMember) {
-        this.cust.ignoreCheckMember = true;
-      }
-
-      $.Req.service($.SvName.GUEST_CREATE, this.cust, ret => {
-        let days = 365;
-        $.data.isLogin = true;
-        if (ret.guestId) {
-          $.Util.cookie.set($.Conf.CookieKeys.GUEST_ID, ret.guestId, days);
-          $.Util.cookie.set($.Conf.CookieKeys.GUEST_PHONE, this.cust.phoneNo, days);
-          $.Util.cookie.set($.Conf.CookieKeys.CUST_PHONE, this.cust.phoneNo, days);
-          $.Util.cookie.set($.Conf.CookieKeys.CUST_NAME, encodeURIComponent(this.cust.name), days);
-          $.Util.cookie.set($.Conf.CookieKeys.GUEST_TYPE, ret.guestType, days);
-          $.Util.cookie.set($.Conf.CookieKeys.GUEST_SHOP, $.data.shop.encSid, days);
-          $.data.user.guestId = ret.guestId;
-          $.data.user.guestPhone = ret.guestPhone;
-          $.data.user.guestType = ret.guestType;
-          $.data.user.guestName = this.cust.name;
-          $.data.user.guestSex = this.cust.sex;
-        } else {
-          $.Dlg.success('系统在开小差，请稍后重试 :-(');
-        }
-        if (this.afterSubmit) {
-          ret.name = this.cust.name;
-          this.afterSubmit(ret);
-        }
-      }, true);
-    },
-
-    checkPhone() {
+    createPayOrder() {
+      // check member-info
       if (!this.cust.phoneNo) {
-        $.Msg.error('请输入您的手机号');
-        return false;
+        $.Msg.error('请输入手机号');
+        return;
       }
       if (!$.Util.validatePhoneNo(this.cust.phoneNo)) {
-        $.Msg.error('手机号格式不正确');
-        return false;
-      }
-
-      return true;
-    },
-
-    sendSmsAuthcode() {
-      if (!this.checkPhone()) {
-        $.Msg.error('请输入您的手机号');
+        $.Msg.error($.Lang.INVALID_PHONE_NO);
         return;
       }
       if (!this.cust.name) {
-        $.Msg.error('请输入您的姓名');
+        $.Msg.error('请输入姓名');
         return;
       }
-      let nowTime = new Date().getTime();
-      if (this.lastSendSmsTime && nowTime - this.lastSendSmsTime < 3000) {
-        $.Msg.warning($.Lang.CLICK_FREQUENTLY);
-        return;
-      }
-      this.lastSendSmsTime = nowTime;
 
       let args = {
-        phoneNo: this.cust.phoneNo,
-        authcodeType: 5,
-        encTid: $.data.shop.encTid,
-        encSid: $.data.shop.encSid,
-        custName: this.cust.name
+        gpId: this.gpId,
+        custPhone: this.cust.phoneNo,
+        custName: this.cust.name,
+        custSex: this.cust.sex,
+        custWxid: $.data.user.guestWxId,
+        ownerStaffId: this.ownerStaffId
       };
+      if (parseInt(this.gtId)) {
+        args.gtId = this.gtId;
+      }
+      $.Util.cookie.set($.Conf.CookieKeys.CUST_NAME, encodeURIComponent(this.cust.name), 100);
+      $.Util.cookie.set($.Conf.CookieKeys.CUST_PHONE, this.cust.phoneNo, 100);
 
-      $.Req.service($.SvName.SMS_AUTHCODE_SEND, args, ret => {
-        if (ret.sendStatus !== 0) {
-          $.Dlg.error($.Lang.AUTHCODE_SEND_ERR);
+      if (!$.data.user.guestWxId || $.data.user.guestWxId === 'undefined') {
+        if ($.data.user.guestWxId) {
+          $.data.user.guestWxId = null;
+          $.Util.cookie.delete($.Conf.CookieKeys.GUEST_WXID);
         }
-      }, true);
-
-      let count = 60;
-      let resend = setInterval(() => {
-        count--;
-        if (count > 0) {
-          this.authcodeBtnDisabled = true;
-          this.authcodeLabel = count + "秒";
+        $.Msg.error('请刷新后再试');
+        return;
+      }
+      $.Req.service($.SvName.GROUPBUY_PRODUCT_ORDER_CREATE, args, ret => {
+        if (ret && ret.paySign) {
+          this.callWxPay(ret);
         } else {
-          clearInterval(resend);
-          this.authcodeBtnDisabled = false;
-          this.authcodeLabel = '获取验证码';
+          $.Dlg.error('支付调用失败，请稍后再试。');
         }
-      }, 1000);
+      }, true, err => {
+        $.Dlg.error(err);
+        if (err && err.indexOf('支付失败') >= 0) {
+          $.Util.cookie.delete($.Conf.CookieKeys.GUEST_WXID);
+          $.data.user.guestWxId = null;
+          this.reloadPage();
+        }
+      });
     },
 
-    //关闭弹窗
-    cardPopClose() {
-      this.$emit("popClose");
+    callWxPay(ret) {
+      let args = {
+        "appId": ret.appId,
+        "nonceStr": ret.nonceStr,
+        "package": "prepay_id={0}".format(ret.prepayId),
+        "signType": ret.signType,
+        "timeStamp": ret.timeStamp,
+        "paySign": ret.paySign
+      };
+      let tradeNo = ret.tradeNo;
+      let ownerStaffId = this.ownerStaffId;
+      WeixinJSBridge.invoke('getBrandWCPayRequest', args, res => {
+        if (res.err_msg === "get_brand_wcpay_request:ok") {
+          let args2 = { tradeNo: tradeNo };
+          if (ownerStaffId) {
+            args2.ownerStaffId = ownerStaffId;
+          }
+          $.Req.service($.SvName.GROUPBUY_ORDER_FINISH, args2, ret => {
+            let gtId = ret.gtId ? ret.gtId : this.gtId;
+            alert('支付成功，感谢您的参与。确定后请尽快将拼团页面分享给您的好友，邀请一起拼团~');
+            //let productUrl = '/groupbuy-product/{0}?gtId={1}'.format(this.gpId, gtId);
+            let productUrl = '/groupbuy-team';
+            this.$router.push(productUrl);
+          }, true);
+        } else {
+          $.Dlg.error('支付失败，请稍候重试。');
+        }
+      });
+    },
+
+    reloadPage() {
+      let path = null;
+      if (this.gtId) {
+        path = 'groupbuy-product-sale/{0}?gtId={1}'.format(this.gpId, this.gtId);
+      } else {
+        path = 'groupbuy-product-sale/{0}'.format(this.gpId);
+      }
+      location.replace($.Util.getPageUrl(path));
+    },
+
+    toProductPage() {
+      let path = null;
+      if (this.gtId) {
+        path = 'groupbuy-product/{0}?gtId={1}'.format(this.gpId, this.gtId);
+      } else {
+        path = 'groupbuy-product/{0}'.format(this.gpId);
+      }
+      location.href = $.Util.getPageUrl(path);
     }
   }
 });
 
 /***/ }),
 
-/***/ 660:
+/***/ 857:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(661);
+var content = __webpack_require__(858);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(543)("10187faa", content, true, {});
+var update = __webpack_require__(543)("be50a84e", content, true, {});
 
 /***/ }),
 
-/***/ 661:
+/***/ 858:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(542)(false);
@@ -4176,339 +4655,39 @@ exports = module.exports = __webpack_require__(542)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".banner[data-v-1fe74ed6]{width:100%;display:block}.group-prod-bg[data-v-1fe74ed6]{background:-webkit-gradient(from top to bottom,#f6d366,#faa881);background:-webkit-linear-gradient(#f6d366,#faa881);background:-o-linear-gradient(#f6d366,#faa881);background:-moz-linear-gradient(#f6d366,#faa881);background:linear-gradient(#f6d366,#faa881);padding-top:20px}[data-v-1fe74ed6] .mu-raised-button-label{font-size:14px;color:hsla(0,0%,100%,.85);letter-spacing:1px}[data-v-1fe74ed6] .mu-raised-button.mu-raised-button-inverse{background:rgba(255,30,36,.9)!important;color:#fff}.team-recorder[data-v-1fe74ed6]{padding:0 20px;max-height:295px;overflow-y:scroll;margin-bottom:-20px}.team-recorder .row[data-v-1fe74ed6]{align-items:center;margin-bottom:16px}.team-recorder .team-left[data-v-1fe74ed6]{width:40px;height:40px;border-radius:50%;line-height:40px;overflow:hidden;text-align:center}.team-recorder .team-left.header-img img[data-v-1fe74ed6]{display:inline-block;max-width:40px;max-height:40px}.team-recorder .team-center[data-v-1fe74ed6]{flex:1;padding:0 10px}.team-recorder .team-center .team-member[data-v-1fe74ed6]{font-size:14px}.team-recorder .team-center .date[data-v-1fe74ed6]{font-size:12px;color:#666}.team-recorder .team-right[data-v-1fe74ed6]{width:80px}.team-recorder .recorder-tip[data-v-1fe74ed6]{text-align:center;color:#999}.jzg-support[data-v-1fe74ed6]{margin-top:-80px;margin-bottom:10px;background:none;color:#e0e0e0;padding:15px 0 35px}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 662:
+/***/ 859:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"login"},[_c('nav',{staticClass:"nav-form"},[_c('span',{staticClass:"right-close",on:{"click":_vm.cardPopClose}}),_vm._v(" "),_c('div',[_vm._v("身份验证")])]),_vm._v(" "),_c('ul',{staticClass:"card-ul card-user"},[_c('li',{staticClass:"unTitle"},[_c('div',[_vm._v("手机号：")]),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.cust.phoneNo),expression:"cust.phoneNo",modifiers:{"number":true}}],attrs:{"type":"tel","placeholder":"请输入您的手机号"},domProps:{"value":(_vm.cust.phoneNo)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.cust, "phoneNo", _vm._n($event.target.value))},"blur":function($event){return _vm.$forceUpdate()}}})])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("姓名：")]),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model.trim",value:(_vm.cust.name),expression:"cust.name",modifiers:{"trim":true}}],attrs:{"type":"text","placeholder":"请输入您的姓名"},domProps:{"value":(_vm.cust.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.cust, "name", $event.target.value.trim())},"blur":function($event){return _vm.$forceUpdate()}}})])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("性别：")]),_vm._v(" "),_c('div',{staticClass:"form-sex",on:{"click":function($event){return _vm.selectSex()}}},[_c('label',[_c('div',{staticClass:"radio-icon",class:{selected:_vm.cust.sex}})]),_vm._v(" "),_c('span',[_vm._v("先生")]),_vm._v(" "),_c('label',[_c('div',{staticClass:"radio-icon",class:{selected:!_vm.cust.sex}})]),_vm._v(" "),_c('span',[_vm._v("女士")])])]),_vm._v(" "),_c('li',{staticClass:"vCode"},[_c('div',[_c('div',[_vm._v("验证码：")]),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.cust.smsAuthCode),expression:"cust.smsAuthCode",modifiers:{"number":true}}],attrs:{"type":"number","placeholder":"请输入短信验证码"},domProps:{"value":(_vm.cust.smsAuthCode)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.cust, "smsAuthCode", _vm._n($event.target.value))},"blur":function($event){return _vm.$forceUpdate()}}})])]),_vm._v(" "),_c('div',{on:{"click":function($event){return _vm.sendSmsAuthcode()}}},[_vm._v(" "+_vm._s(_vm.authcodeLabel)+" ")])])]),_vm._v(" "),_c('div',{staticClass:"login-submit",on:{"click":function($event){return _vm.createCust()}}},[_vm._v("提 交")]),_vm._v(" "),_c('div',{staticClass:"card-tip"},[_c('img',{attrs:{"src":"/static/img/icons/tip.png"}}),_vm._v(" "),_c('span',[_vm._v("您的个人信息将直接提交给商家『"+_vm._s(_vm.g.data.shop.shopName)+"』")])]),_vm._v(" "),_c('div',{staticClass:"footer-corp"},[_vm._v("由『健总管』提供技术支持")])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"wechat-title",rawName:"v-wechat-title",value:(_vm.shop.shopName),expression:"shop.shopName"}],staticClass:"group-product  ",attrs:{"img-set":"/static/img/logo.ico"}},[_c('div',[(_vm.product && _vm.product.productPic)?_c('img',{staticClass:"banner",attrs:{"src":_vm.g.Util.getImgUrl(_vm.product.productPic)}}):_vm._e()]),_vm._v(" "),_c('div',{staticClass:"group-li"},[_c('div',{staticClass:"group-title"},[_vm._v(_vm._s(_vm.product.productTitle))]),_vm._v(" "),_c('div',{staticClass:"group-buy"},[_c('div',{staticClass:"group-price"},[_c('div',[_vm._v("￥"+_vm._s(_vm.product.price))]),_vm._v(" "),_c('div',[_vm._v("￥"+_vm._s(_vm.product.originalPrice))])]),_vm._v(" "),_c('div',{staticClass:"member-num"},[_vm._v(_vm._s(_vm.product.limitMembers)+"人团")])]),_vm._v(" "),_c('div',{staticClass:"group-tips"},[_c('div',[_vm._v("开团时间："+_vm._s(_vm.g.Util.formatDate(_vm.product.beginDate))+"~"+_vm._s(_vm.g.Util.formatDate(_vm.product.endDate)))]),_vm._v(" "),_c('div',[_vm._v("预付款"),_c('span',[_vm._v("￥"+_vm._s(_vm.product.imprest))])])])]),_vm._v(" "),_c('div',{staticClass:"group-prod-bg"},[_c('div',{staticClass:"group-detail"},[(_vm.product.productDesc)?_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("商品描述")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.product.productDesc))])])]):_vm._e(),_vm._v(" "),(_vm.product.remark)?_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("拼团规则")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.product.remark))])])]):_vm._e(),_vm._v(" "),(_vm.groupbuyOrderList && _vm.groupbuyOrderList.length)?_c('div',{staticClass:"group-item"},[(_vm.groupbuyTeam)?_c('div',{staticClass:"tips tit"},[_vm._v("已有 "),_c('b',[_vm._v(_vm._s(_vm.groupbuyTeam.teamMembers))]),_vm._v(" 人参团")]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"article black-none"}),_vm._v(" "),_c('div',{staticClass:"team-recorder"},[_vm._l((_vm.groupbuyOrderList),function(o){return _c('div',{staticClass:"row"},[_c('div',{staticClass:"header-img team-left"},[(o.headimgurl)?_c('img',{attrs:{"src":o.headimgurl}}):(o.custSex)?_c('img',{attrs:{"src":_vm.g.Conf.IMG_LIB_URL + '/avatar/m1.jpg'}}):_c('img',{attrs:{"src":_vm.g.Conf.IMG_LIB_URL + '/avatar/w1.png'}})]),_vm._v(" "),_c('div',{staticClass:"col team-center"},[_c('div',{staticClass:"team-member"},[_vm._v("\n                "+_vm._s(o.custName)+_vm._s(o.custSex ? '先生' : '女士')+"\n              ")]),_vm._v(" "),_c('div',{staticClass:"date"},[_vm._v(_vm._s(o.createTime))])]),_vm._v(" "),_c('div',{staticClass:"team-right"},[_vm._v(" "+_vm._s(o.encCustPhone))])])}),_vm._v(" "),(_vm.groupbuyTeam.teamMembers > 50)?_c('div',{staticClass:"recorder-tip"},[_vm._v("仅显示最近 50 条参团记录")]):_vm._e()],2)]):_vm._e(),_vm._v(" "),(_vm.product.productMorePics)?_c('div',{staticClass:"shop-imgs group-item"},[_c('div',{staticClass:"tit"},[_vm._v("商品图片")]),_vm._v(" "),_c('div',{staticClass:"article"},_vm._l((_vm.productMorePicList),function(img){return _c('img',{attrs:{"src":_vm.g.Util.getImgUrl(img)},on:{"click":function($event){return _vm.imagePreview(img)}}})}),0)]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"shop-imgs group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆风采")]),_vm._v(" "),_c('div',{staticClass:"article"},_vm._l((_vm.shopImgs),function(img){return _c('img',{attrs:{"src":_vm.g.Util.getImgUrl(img)},on:{"click":function($event){return _vm.imagePreview(img)}}})}),0)])]),_vm._v(" "),_c('div',{staticClass:"group-detail shop-detail "},[_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆地址")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('ul',{staticClass:"group-buy-tips"},[_c('li',[_vm._v("\n              "+_vm._s(_vm.shop.addr)+"\n            ")]),_vm._v(" "),_c('li',[(_vm.shop.tel)?_c('p',[_vm._v("联系电话："),_c('a',{attrs:{"href":'tel:' + _vm.shop.tel}},[_vm._v(_vm._s(_vm.shop.tel))])]):_vm._e()])])])]),_vm._v(" "),_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆介绍")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.shop.shopIntro || '暂无简介'))])])])]),_vm._v(" "),_c('div',{staticClass:"lotteryMore",staticStyle:{"margin-bottom":"35px"}},[_c('div',{staticClass:"activitys",on:{"click":function($event){return _vm.$router.push('/groupbuy-product-list')}}},[_vm._v("更多拼团商品\n      ")]),_vm._v(" "),_c('div',{staticClass:"logs",on:{"click":function($event){return _vm.$router.push('/shop-activity')}}},[_vm._v("门店其他活动\n      ")])]),_vm._v(" "),_c('div',{staticClass:"jzg-support"},[_vm._v("由『健总管』提供技术支持")])]),_vm._v(" "),_c('div',{staticClass:"bottom-opt"},[(!_vm.groupbuyTeam)?[_c('mu-raised-button',{staticStyle:{"line-height":"50px","height":"50px"},attrs:{"fullWidth":"","label":"我要开新团","labelClass":"big","backgroundColor":"orangered"},on:{"click":_vm.joinGroupbuyTeam}})]:[_c('div',{staticClass:"team-info"},[(_vm.enableJoinTeam)?[_vm._v("\n          距结束仅剩 : "),_c('span',{staticClass:"leftval"},[_c('u',[_vm._v(_vm._s(_vm.product.limitMembers - _vm.groupbuyTeam.teamMembers))]),_vm._v("人")]),_vm._v(" "),_c('span',{staticClass:"leftval"},[_c('u',[_vm._v(_vm._s(_vm.leftHour))]),_vm._v("时"),_c('u',[_vm._v(_vm._s(_vm.leftMin))]),_vm._v("分"),_c('u',[_vm._v(_vm._s(_vm.leftSec))]),_vm._v("秒")])]:[_vm._v("该拼团已结束")]],2),_vm._v(" "),(_vm.enableJoinTeam)?_c('mu-raised-button',{staticStyle:{"line-height":"50px","height":"50px"},attrs:{"fullWidth":"","label":"我要参团","labelClass":"big","backgroundColor":"orangered"},on:{"click":_vm.joinGroupbuyTeam}}):_vm._e()]],2)])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
-/***/ 697:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview__ = __webpack_require__(601);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style__ = __webpack_require__(609);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vant_lib_image_preview_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cust_create_vue__ = __webpack_require__(599);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  components: { ImagePreview: __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default.a, CustCreate: __WEBPACK_IMPORTED_MODULE_2__cust_create_vue__["a" /* default */] },
-
-  data() {
-    return {
-      g: window.$,
-      shopId: $.data.shop.shopId,
-      itemId: this.$route.query.item,
-      sharerId: parseInt(this.$route.query.sharer),
-      shareItem: {},
-      shareCard: null,
-      shop: {},
-      shopImgs: [],
-      createCustDlg: false,
-      ownerStaffId: 0,
-      salesPhoneNo: null,
-      receiver: { name: null, phoneNo: null, receiveTime: null }
-    };
-  },
-
-  created() {
-    if (this.itemId && this.sharerId) {
-      this.queryShareItem(this.itemId);
-      this.queryItemReceiver();
-    }
-  },
-
-  methods: {
-    queryShareItem(itemId) {
-      let args = { itemId: itemId, sharerId: this.sharerId };
-      $.Req.service($.SvName.SHARE_ITEM_QUERY, args, ret => {
-        this.shareItem = ret.shareItem;
-        this.salesPhoneNo = ret.sharerPhoneNo;
-        if (this.shareItem.sharerType === 2) {
-          this.ownerStaffId = this.sharerId;
-        }
-        if (this.shareItem.shareCardId) {
-          $.Req.service($.SvName.CARD_QUERY, { cardId: this.shareItem.shareCardId }, ret2 => {
-            this.shareCard = ret2.card;
-          });
-        }
-        this.queryShop();
-        this.visitShareItem();
-      }, true);
-    },
-
-    queryItemReceiver() {
-      if (!$.data.user.guestWxId) return;
-
-      let args = {
-        itemId: this.itemId,
-        sharerId: this.sharerId,
-        guestWxId: $.data.user.guestWxId
-      };
-      $.Req.service($.SvName.SHARE_ITEM_RECEIVER_QUERY, args, ret => {
-        this.receiver.name = ret.name;
-        this.receiver.phoneNo = ret.phoneNo;
-        this.receiver.receiveTime = ret.receiveTime;
-        if (ret.phoneNo) {
-          if (this.shareItem.shareCardId) {
-            alert('您已领取！ 确定后将跳转至会员卡售卖页面，请通过微信支付购买会员卡。');
-            let url = $.Util.getPageUrl('shop-card-sale/{0}?item={1}&sharer={2}'.format(this.shareItem.shareCardId, this.itemId, this.sharerId));
-            if (this.salesPhoneNo) url += '&salesPhoneNo=' + this.salesPhoneNo;
-            location.href = url;
-          } else {
-            $.Dlg.warning('您已领取，赶紧去场馆体验吧~');
-          }
-        }
-      });
-    },
-
-    queryShop() {
-      let args = { shopId: this.shopId };
-      $.Req.service($.SvName.SHOP_QUERY, args, ret => {
-        this.shop = ret.shop;
-        if (this.shop.logoPathname) {
-          this.shopImgs.push(this.shop.logoPathname);
-        }
-        if (this.shop.shopPics) {
-          let imgs = this.shop.shopPics.split(',');
-          for (let img of imgs) {
-            this.shopImgs.push(img);
-          }
-        }
-        let addr = '';
-        if (this.shop.addrProvinceName) addr += this.shop.addrProvinceName;
-        if (this.shop.addrCityName) addr += this.shop.addrCityName;
-        if (this.shop.addrDistrictName) addr += this.shop.addrDistrictName;
-        if (this.shop.addrDetail) addr += this.shop.addrDetail;
-        this.shop.addr = addr;
-
-        this.setShareConf();
-      });
-    },
-
-    setShareConf() {
-      let imgUrl = $.Util.getImgUrl(this.shop.logoPathname);
-      imgUrl = 'http://tool.jzongguan.com/url-redirect.php?url=' + encodeURIComponent(imgUrl);
-      let shareTitle = "{0}-{1}".format(this.shareItem.itemName, this.shop.shopName);
-      /*let shareLink = "http://tool.jzongguan.com/#/share-item?itemId={0}&mid={1}".format(
-        this.shareItem.itemId, $.data.user.memberId);*/
-      let shareDesc = this.shareItem.receiverNote ? this.shareItem.receiverNote.shorten(30) : '点击有惊喜！';
-      wx.ready(() => {
-        wx.onMenuShareTimeline({
-          title: shareTitle,
-          link: location.href,
-          imgUrl: imgUrl,
-          success: () => {},
-          cancel: () => {
-            //toddo
-          }
-        });
-
-        wx.onMenuShareAppMessage({
-          title: shareTitle,
-          desc: shareDesc,
-          link: location.href,
-          imgUrl: imgUrl,
-          success: () => {},
-          cancel: () => {
-            // 用户取消分享后执行的回调函数
-          }
-        });
-      });
-    },
-
-    visitShareItem() {
-      let args = {
-        itemId: this.itemId,
-        sharerId: this.sharerId
-      };
-      $.Req.service($.SvName.SHARE_ITEM_VISIT, args, ret => {});
-    },
-
-    clickReceive() {
-      this.createCustDlg = true;
-      /* location.href = $.Util.getPageUrl('shop-card-sale/{0}?item={1}&sharer={2}?'.format(
-         this.shareItem.shareCardId, this.itemId, this.sharerId)
-       );*/
-    },
-
-    afterCreateCust(guest) {
-      if (guest !== null) {
-        let args = {
-          itemId: this.itemId,
-          sharerId: this.sharerId,
-          custId: guest.guestId
-        };
-        $.Req.service($.SvName.SHARE_ITEM_RECEIVER_CREATE, args, ret => {
-          this.createCustDlg = false;
-          if (this.shareItem.shareCardId) {
-            alert('感谢您的参与！ 确定后将跳转至会员卡售卖页面，请通过微信支付购买会员卡。');
-            let url = $.Util.getPageUrl('shop-card-sale/{0}?item={1}&sharer={2}'.format(this.shareItem.shareCardId, this.itemId, this.sharerId));
-            if (this.salesPhoneNo) url += '&salesPhoneNo=' + this.salesPhoneNo;
-            location.href = url;
-          } else {
-            alert('{0}（{1}）领取【{2}】成功！ 确定后将跳转至会员卡售卖页面。'.format(guest.name, guest.guestPhone, this.shareItem.itemName));
-            location.href = $.Util.getPageUrl('shop-cards');
-          }
-        }, true);
-      }
-    },
-
-    imagePreview(img) {
-      __WEBPACK_IMPORTED_MODULE_0_vant_lib_image_preview___default()([$.Util.getImgUrl(img)]);
-    }
-  }
-});
-
-/***/ }),
-
-/***/ 849:
+/***/ 860:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(850);
+var content = __webpack_require__(861);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(543)("a93f37a6", content, true, {});
+var update = __webpack_require__(543)("53244625", content, true, {});
 
 /***/ }),
 
-/***/ 850:
+/***/ 861:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(542)(false);
@@ -4516,19 +4695,19 @@ exports = module.exports = __webpack_require__(542)(false);
 
 
 // module
-exports.push([module.i, "img[data-v-46be5ff6]{display:block}.share-item .lotteryMore .logs[data-v-46be5ff6]{margin:0 auto}.group-prod-bg[data-v-46be5ff6]{background:-webkit-gradient(from top to bottom,#f6d366,#faa881);background:-webkit-linear-gradient(#f6d366,#faa881);background:-o-linear-gradient(#f6d366,#faa881);background:-moz-linear-gradient(#f6d366,#faa881);background:linear-gradient(#f6d366,#faa881);padding-top:20px}.sale-split[data-v-46be5ff6]{padding:0 0 20px 20px}.sale-split .group-title[data-v-46be5ff6]{font-size:16px;font-weight:700;margin-bottom:4px;letter-spacing:2px;padding-left:0}.sale-split .limit-time[data-v-46be5ff6]{color:#fff}[data-v-46be5ff6] .mu-raised-button-label{font-size:14px;color:hsla(0,0%,100%,.85);letter-spacing:1px}", ""]);
+exports.push([module.i, ".old-price[data-v-21d49110]{font-size:12px;margin-left:15px;color:#999;text-decoration:line-through}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 851:
+/***/ 862:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"wechat-title",rawName:"v-wechat-title",value:(_vm.shop.shopName),expression:"shop.shopName"}],staticClass:"group-product share-item",attrs:{"img-set":"/static/img/logo.ico"}},[(_vm.shareItem.itemImg)?_c('img',{attrs:{"src":_vm.g.Util.getImgUrl(_vm.shareItem.itemImg)}}):_vm._e(),_vm._v(" "),_c('div',{staticClass:"group-prod-bg"},[_c('div',{staticClass:"sale-split"},[_c('div',{staticClass:"group-title"},[_vm._v(_vm._s(_vm.shareItem.itemName))]),_vm._v(" "),_c('div',{staticClass:"limit-time"},[_vm._v("有效期："+_vm._s(_vm.g.Util.formatDate(_vm.shareItem.beginDate, false))+" ~ "+_vm._s(_vm.g.Util.formatDate(_vm.shareItem.endDate, false)))])]),_vm._v(" "),_c('div',{staticClass:"group-detail"},[(_vm.shareItem.itemDesc)?_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("项目说明")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.shareItem.itemDesc))])])]):_vm._e(),_vm._v(" "),(_vm.shareItem.shareCardId && _vm.shareCard)?_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("领取会员卡")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('div',{staticClass:"center"},[_vm._v("『 "),_c('b',[_vm._v(_vm._s(_vm.shareCard.cardName))]),_vm._v(" 』")]),_vm._v(" "),_c('div',{staticClass:"mt20"},[_c('pre',[_vm._v(_vm._s(_vm.shareCard.intro))])])])]):_vm._e(),_vm._v(" "),(_vm.shareItem.receiverNote)?_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("奖励说明")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.shareItem.receiverNote))])])]):_vm._e(),_vm._v(" "),(_vm.shareItem.morePics)?_c('div',{staticClass:"shop-imgs group-item"},[_c('div',{staticClass:"tit"},[_vm._v("项目更多图片")]),_vm._v(" "),_c('div',{staticClass:"article"}),_vm._v(" "),_vm._l((_vm.shareItem.morePics.split(',')),function(img){return _c('img',{attrs:{"src":_vm.g.Util.getImgUrl(img)},on:{"click":function($event){return _vm.imagePreview(img)}}})})],2):_vm._e(),_vm._v(" "),_c('div',{staticClass:"shop-imgs group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆风采")]),_vm._v(" "),_c('div',{staticClass:"article"}),_vm._v(" "),_vm._l((_vm.shopImgs),function(img){return _c('img',{attrs:{"src":_vm.g.Util.getImgUrl(img)},on:{"click":function($event){return _vm.imagePreview(img)}}})})],2)]),_vm._v(" "),_c('div',{staticClass:"group-detail shop-detail"},[_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆地址")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('ul',{staticClass:"group-buy-tips"},[_c('li',[_vm._v("\n                  "+_vm._s(_vm.shop.addr)+"\n                ")]),_vm._v(" "),_c('li',[(_vm.shop.tel)?_c('p',[_vm._v("联系电话："),_c('a',{attrs:{"href":'tel:' + _vm.shop.tel}},[_vm._v(_vm._s(_vm.shop.tel))])]):_vm._e()])])])]),_vm._v(" "),_c('div',{staticClass:"group-item"},[_c('div',{staticClass:"tit"},[_vm._v("场馆介绍")]),_vm._v(" "),_c('div',{staticClass:"article"},[_c('pre',[_vm._v(_vm._s(_vm.shop.shopIntro || '暂无简介'))])])])]),_vm._v(" "),(_vm.receiver.phoneNo)?_c('div',{staticClass:"lotteryMore"},[_c('div',{staticClass:"logs",on:{"click":function($event){return _vm.$router.push('/shop-activity')}}},[_vm._v("门店其他活动")])]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"footer-corp"},[_vm._v("由『健总管』提供技术支持")])]),_vm._v(" "),(!_vm.receiver.phoneNo)?_c('div',{staticClass:"bottom-opt"},[_c('mu-raised-button',{staticStyle:{"line-height":"42px","height":"42px"},attrs:{"fullWidth":"","label":"立即领取","labelClass":"big","backgroundColor":"orangered"},on:{"click":_vm.clickReceive}})],1):_vm._e(),_vm._v(" "),_c('mu-popup',{attrs:{"position":"right","popupClass":"popup","open":_vm.createCustDlg}},[(_vm.createCustDlg)?[_c('cust-create',{attrs:{"after-submit":_vm.afterCreateCust,"ignore-check-member":true,"owner-staff-id":_vm.ownerStaffId},on:{"popClose":function($event){_vm.createCustDlg = false}}})]:_vm._e()],2)],1)}
-var staticRenderFns = []
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"wechat-title",rawName:"v-wechat-title",value:(_vm.g.data.shop.shopName),expression:"g.data.shop.shopName"}],staticClass:"detail group-sale",attrs:{"img-set":"/static/img/logo.ico"}},[_c('nav',{staticClass:"nav-form"},[_c('span',{staticClass:"left-arrow",on:{"click":_vm.toProductPage}}),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('ul',{staticClass:"card-ul"},[_vm._m(1),_vm._v(" "),_c('li',[_c('div',[_vm._v("门店名称：")]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.g.data.shop.shopName))])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("拼团商品：")]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.product.productTitle))])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("拼团时效：")]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.product.limitHours)+" 小时")])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("成团人数：")]),_vm._v(" "),_c('div',[_vm._v(_vm._s(_vm.product.limitMembers)+"人")])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("拼团价格：")]),_vm._v(" "),_c('div',[_c('span',{staticClass:"price"},[_vm._v("￥"+_vm._s(_vm.product.price))]),_vm._v(" "),_c('span',{staticClass:"old-price"},[_vm._v("原价 ￥"+_vm._s(_vm.product.originalPrice))])])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("预付款：")]),_vm._v(" "),_c('div',[_c('span',{staticClass:"price"},[_vm._v("￥"+_vm._s(_vm.product.imprest))])])])]),_vm._v(" "),_c('ul',{staticClass:"card-ul card-user"},[_vm._m(2),_vm._v(" "),_c('li',[_c('div',[_vm._v("手机号：")]),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.cust.phoneNo),expression:"cust.phoneNo",modifiers:{"number":true}}],attrs:{"type":"tel","placeholder":"请输入您的手机号"},domProps:{"value":(_vm.cust.phoneNo)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.cust, "phoneNo", _vm._n($event.target.value))},"blur":function($event){return _vm.$forceUpdate()}}})])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("姓名：")]),_vm._v(" "),_c('div',[_c('input',{directives:[{name:"model",rawName:"v-model.trim",value:(_vm.cust.name),expression:"cust.name",modifiers:{"trim":true}}],attrs:{"type":"text","placeholder":"请输入您的姓名"},domProps:{"value":(_vm.cust.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.cust, "name", $event.target.value.trim())},"blur":function($event){return _vm.$forceUpdate()}}})])]),_vm._v(" "),_c('li',[_c('div',[_vm._v("性别：")]),_vm._v(" "),_c('div',[_c('div',{staticClass:"form-sex",on:{"click":function($event){return _vm.selectSex()}}},[_c('label',[_c('div',{staticClass:"radio-icon",class:{selected:_vm.cust.sex}})]),_vm._v(" "),_c('span',[_vm._v("先生")]),_vm._v(" "),_c('label',[_c('div',{staticClass:"radio-icon",class:{selected:!_vm.cust.sex}})]),_vm._v(" "),_c('span',[_vm._v("女士")])])])])]),_vm._v(" "),_vm._m(3),_vm._v(" "),(_vm.guestWxId)?_c('div',{staticClass:"card-buy"},[(_vm.product.imprest)?_c('div',{staticClass:"btn",on:{"click":function($event){return _vm.createPayOrder()}}},[_vm._v("微信支付（￥"+_vm._s(_vm.product.imprest)+" ）")]):_vm._e()]):_c('div',{staticClass:"card-buy-fail"},[_c('div',{staticClass:"err"},[_vm._v("\n\t\t\t\t微信接口繁忙，暂不能支付，请刷新后再试\n\t\t\t")]),_vm._v(" "),_c('div',[_c('span',{staticClass:"refresh",on:{"click":_vm.reloadPage}},[_vm._v("刷新")])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('i',{staticClass:"iconfont icon-payment"}),_vm._v(" 拼团结算")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('span',{staticClass:"sec-Title"},[_vm._v("拼团信息")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('span',{staticClass:"sec-Title"},[_vm._v("填写个人信息")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card-tip"},[_c('i',{staticClass:"iconfont icon-info"}),_vm._v(" 个人信息用于商家识别您的身份，请务必填写准确\n\t\t")])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
