@@ -8,10 +8,10 @@ webpackJsonp([16],{
  * Created by zxl on 2017/4/19.
  */
 const Conf = {
-  API_HOST: "http://192.168.0.174:8093",
+  API_HOST: "http://yfyr5h.natappfree.cc",
   IMG_BASE_URL: "//qdimg.oss-cn-shanghai.aliyuncs.com",
-  IMG_UPLOAD_URL: "http://192.168.0.174:8093" + "/imgUpload",
-  VIDEO_UPLOAD: "http://192.168.0.174:8093" + "/videoUpload",
+  IMG_UPLOAD_URL: "http://yfyr5h.natappfree.cc" + "/imgUpload",
+  VIDEO_UPLOAD: "http://yfyr5h.natappfree.cc" + "/videoUpload",
   VIDEO_BASE_URL: "//qd-jzg-video.oss-cn-shanghai.aliyuncs.com",
   QR_CODE_URL: "https://tool.jzongguan.com/qr-img.php?val=",
   PAGE_SIZE: 30,
@@ -29,7 +29,7 @@ const Conf = {
   WX_APP_ID_TEST: "wx83462b1a98b26046", // test
 
   // APP_API_HOST: 'https://app.jzongguan.com',
-  APP_API_HOST: "http://192.168.0.156:7090",
+  APP_API_HOST: "https://app.panstarry.com",
   Keys: {
     USER: "user",
     TID: "encTid",

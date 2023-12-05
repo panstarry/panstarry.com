@@ -2053,9 +2053,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           this.loginWithWeixin({ wxCode: msg, isFromSocket: true });
         }
       });
-      // socket.on("update_online_count", (msg) => {
-      //   console.log(msg);
-      // });
+      socket.on("update_online_count", msg => {
+        console.log(msg);
+      });
       if (callback) {
         callback();
       }
