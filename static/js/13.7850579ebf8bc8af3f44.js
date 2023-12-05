@@ -2054,7 +2054,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
       });
       socket.on("update_online_count", msg => {
-        console.log(msg);
+        // console.log(msg);
       });
       if (callback) {
         callback();
