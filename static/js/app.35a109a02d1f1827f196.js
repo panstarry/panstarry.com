@@ -21,7 +21,7 @@ const Conf = {
   IMG_LIB_URL: "https://jzongguan.com/imglib",
   ALIPAY_BASE_URL: "http://zhimakaimen.jzongguan.com",
   MOBILE_CLIENT_URL: "http://app.jzongguan.com/run.html",
-  CHECKIN_SOCKET_ADDR: "http://192.168.0.174:2120",
+  CHECKIN_SOCKET_ADDR: "https://5xk0661316.goho.co",
   // 授权key
   MEI_TUAN_APP_KEY: "80adf61bd151ad5e",
 
