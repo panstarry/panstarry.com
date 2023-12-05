@@ -29,7 +29,7 @@ const Conf = {
   WX_APP_ID_TEST: "wx83462b1a98b26046", // test
 
   // APP_API_HOST: 'https://app.jzongguan.com',
-  APP_API_HOST: "http://192.168.0.156:7090",
+  APP_API_HOST: "https://app.panstarry.com",
   Keys: {
     USER: "user",
     TID: "encTid",
