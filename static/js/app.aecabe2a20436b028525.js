@@ -8,10 +8,10 @@ webpackJsonp([16],{
  * Created by zxl on 2017/4/19.
  */
 const Conf = {
-  API_HOST: "http://yfyr5h.natappfree.cc",
+  API_HOST: "https://5xk0661316.goho.co",
   IMG_BASE_URL: "//qdimg.oss-cn-shanghai.aliyuncs.com",
-  IMG_UPLOAD_URL: "http://yfyr5h.natappfree.cc" + "/imgUpload",
-  VIDEO_UPLOAD: "http://yfyr5h.natappfree.cc" + "/videoUpload",
+  IMG_UPLOAD_URL: "https://5xk0661316.goho.co" + "/imgUpload",
+  VIDEO_UPLOAD: "https://5xk0661316.goho.co" + "/videoUpload",
   VIDEO_BASE_URL: "//qd-jzg-video.oss-cn-shanghai.aliyuncs.com",
   QR_CODE_URL: "https://tool.jzongguan.com/qr-img.php?val=",
   PAGE_SIZE: 30,
@@ -21,7 +21,7 @@ const Conf = {
   IMG_LIB_URL: "https://jzongguan.com/imglib",
   ALIPAY_BASE_URL: "http://zhimakaimen.jzongguan.com",
   MOBILE_CLIENT_URL: "http://app.jzongguan.com/run.html",
-  CHECKIN_SOCKET_ADDR: "https://5xk0661316.goho.co",
+  CHECKIN_SOCKET_ADDR: "http://5vsmqh.natappfree.cc",
   // 授权key
   MEI_TUAN_APP_KEY: "80adf61bd151ad5e",
 
