@@ -578,7 +578,7 @@ var Component = normalizeComponent(
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_mt_verify_coupon_vue__ = __webpack_require__(699);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1dbc0517_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_mt_verify_coupon_vue__ = __webpack_require__(847);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ca22ec50_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_mt_verify_coupon_vue__ = __webpack_require__(847);
 function injectStyle (ssrContext) {
   __webpack_require__(842)
 }
@@ -593,12 +593,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-1dbc0517"
+var __vue_scopeId__ = "data-v-ca22ec50"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_mt_verify_coupon_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1dbc0517_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_mt_verify_coupon_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ca22ec50_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_mt_verify_coupon_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -21858,19 +21858,6 @@ const prefixCls = "qd-table";
         }
       }
     },
-    // 等待 WeixinJSBridge 对象加载完成
-    onBridgeReady() {
-      // 调用微信浏览器的扫描二维码接口
-      WeixinJSBridge.invoke("getScanQRCodeResult", {}, function (res) {
-        console.log(res);
-        // 处理扫描结果
-        if (res.err_msg === "getScanQRCodeResult:ok") {
-          alert("扫描成功，结果为：" + res.resultStr);
-        } else {
-          alert("扫描失败");
-        }
-      });
-    },
 
     // 开始二维码扫描
     scanQRCode() {
@@ -21879,29 +21866,22 @@ const prefixCls = "qd-table";
       if (!isWeixin) {
         alert("请用微信打开链接，才可使用扫一扫");
       }
-      // 如果 WeixinJSBridge 已经注入则直接调用
-      if (typeof WeixinJSBridge !== "undefined") {
-        this.onBridgeReady();
-      } else {
-        // 如果没有注入，则监听WeixinJSBridgeReady事件
-        document.addEventListener("WeixinJSBridgeReady", this.onBridgeReady, false);
-      }
-      return;
       wx.ready(() => {
         wx.scanQRCode({
-          needResult: 0, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+          needResult: 1, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
           scanType: ["qrCode"], // 可以指定扫二维码还是一维码，默认二者都有
           success: res => {
+            console.log("成功", res);
             this.couponInfo.receiptCode = res.result;
-            const { memberPhoneNo } = this.couponInfo;
-            if ($.Util.validatePhoneNo(memberPhoneNo)) {
-              this.couponQuery();
-            }
+            // const { memberPhoneNo } = this.couponInfo;
+            // if ($.Util.validatePhoneNo(memberPhoneNo)) {
+            //   this.couponQuery();
+            // }
           },
           fail: res => {
-            console.log(res);
+            console.log("失败", res);
             // 使用插件扫码
-            this.openQrcode();
+            // this.openQrcode();
           }
         });
       });
@@ -24649,7 +24629,7 @@ var content = __webpack_require__(843);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(546)("66bfc6da", content, true, {});
+var update = __webpack_require__(546)("89876f0a", content, true, {});
 
 /***/ }),
 /* 843 */
@@ -24660,7 +24640,7 @@ exports = module.exports = __webpack_require__(545)(false);
 
 
 // module
-exports.push([module.i, ".card-li[data-v-1dbc0517]{display:flex}.card-li .card-title[data-v-1dbc0517]{width:110px}.card-li .card-name[data-v-1dbc0517]{flex:1}.qrcode-popup[data-v-1dbc0517]{width:100vw;height:100vh}input[data-v-1dbc0517]{width:100%;border:none;appearance:none;border-radius:0;outline:medium;background-color:transparent}.required[data-v-1dbc0517]:after{margin-left:2px;display:inline-block;content:\"*\";color:#ff1e24;vertical-align:-2px}.row[data-v-1dbc0517]{display:flex;align-items:center}.mt-verify-coupon .tblform[data-v-1dbc0517]{padding:0 10px}.mt-verify-coupon .tblform .section-part[data-v-1dbc0517]{padding:0 16px;margin-bottom:8px;border:1px solid #eee;border-radius:8px}.mt-verify-coupon .tblform .infor-name[data-v-1dbc0517]{width:75px}.mt-verify-coupon .tblform .infor-detail[data-v-1dbc0517]{flex:1}.mt-verify-coupon .tblform .v-c-li[data-v-1dbc0517]{padding:15px 0;border-bottom:1px solid #eee;height:53px;line-height:53px}.mt-verify-coupon .tblform .iconfont[data-v-1dbc0517]{font-size:24px}.mt-verify-coupon .btn-combine[data-v-1dbc0517]{text-align:center;padding:10px;color:#fff;border-radius:4px}.dark input[data-v-1dbc0517]{color:#fff}.popup-card-info[data-v-1dbc0517]{width:300px;padding:20px 20px 16px}.popup-card-info .row[data-v-1dbc0517]{font-size:16px;justify-content:flex-start;padding:8px 0}.popup-card-info .card-title[data-v-1dbc0517]{width:110px}.popup-card-info .card-btn[data-v-1dbc0517]{margin:16px 0 0;padding:1px;border-radius:4px;text-align:center;color:#fff}.popup-card-info .card-btn .btn[data-v-1dbc0517]{flex:1;padding:10px 0}.popup-card-info .order-title[data-v-1dbc0517]{font-weight:700;padding-bottom:16px;text-align:center}.popup-tips[data-v-1dbc0517]{margin-top:10px}.popup-tips span[data-v-1dbc0517]{vertical-align:text-bottom;margin-left:1px}.card-ul[data-v-1dbc0517]{border-top-width:1px}", ""]);
+exports.push([module.i, ".card-li[data-v-ca22ec50]{display:flex}.card-li .card-title[data-v-ca22ec50]{width:110px}.card-li .card-name[data-v-ca22ec50]{flex:1}.qrcode-popup[data-v-ca22ec50]{width:100vw;height:100vh}input[data-v-ca22ec50]{width:100%;border:none;appearance:none;border-radius:0;outline:medium;background-color:transparent}.required[data-v-ca22ec50]:after{margin-left:2px;display:inline-block;content:\"*\";color:#ff1e24;vertical-align:-2px}.row[data-v-ca22ec50]{display:flex;align-items:center}.mt-verify-coupon .tblform[data-v-ca22ec50]{padding:0 10px}.mt-verify-coupon .tblform .section-part[data-v-ca22ec50]{padding:0 16px;margin-bottom:8px;border:1px solid #eee;border-radius:8px}.mt-verify-coupon .tblform .infor-name[data-v-ca22ec50]{width:75px}.mt-verify-coupon .tblform .infor-detail[data-v-ca22ec50]{flex:1}.mt-verify-coupon .tblform .v-c-li[data-v-ca22ec50]{padding:15px 0;border-bottom:1px solid #eee;height:53px;line-height:53px}.mt-verify-coupon .tblform .iconfont[data-v-ca22ec50]{font-size:24px}.mt-verify-coupon .btn-combine[data-v-ca22ec50]{text-align:center;padding:10px;color:#fff;border-radius:4px}.dark input[data-v-ca22ec50]{color:#fff}.popup-card-info[data-v-ca22ec50]{width:300px;padding:20px 20px 16px}.popup-card-info .row[data-v-ca22ec50]{font-size:16px;justify-content:flex-start;padding:8px 0}.popup-card-info .card-title[data-v-ca22ec50]{width:110px}.popup-card-info .card-btn[data-v-ca22ec50]{margin:16px 0 0;padding:1px;border-radius:4px;text-align:center;color:#fff}.popup-card-info .card-btn .btn[data-v-ca22ec50]{flex:1;padding:10px 0}.popup-card-info .order-title[data-v-ca22ec50]{font-weight:700;padding-bottom:16px;text-align:center}.popup-tips[data-v-ca22ec50]{margin-top:10px}.popup-tips span[data-v-ca22ec50]{vertical-align:text-bottom;margin-left:1px}.card-ul[data-v-ca22ec50]{border-top-width:1px}", ""]);
 
 // exports
 

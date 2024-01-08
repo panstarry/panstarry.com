@@ -1250,6 +1250,7 @@ function _init_(to, shopId, callback) {
   };
   $.Req.service($.SvName.WX_API_CONF_GET, args, ret => {
     if (ret.wxApiConf && ret.wxApiConf.signature) {
+      console.log('1231313123123');
       wx.config({
         debug: false,
         appId: ret.wxApiConf.appId,
